@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // See https://www.typescriptlang.org/tsconfig for more details.
+    "target": "ES2021",
+    "lib": ["ES2021"],
+    "module": "commonjs",
+
+    "rootDir": "./",
+    "paths": {
+      "@/*": ["./*"]
+    },
+
+    "outDir": "./dist",
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "moduleDetection": "force"
+  },
+  "include": ["**/*.ts"]
+}

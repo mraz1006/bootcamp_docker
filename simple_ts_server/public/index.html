@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <title>Hello world!</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap");
+
+    h1 {
+      font-family: "Alkatra", cursive;
+      text-align: center;
+    }
+    section {
+      margin: 0 auto;
+      max-width: 400px;
+    }
+    .center {
+      display: grid;
+      justify-content: center;
+    }
+    .image-circle {
+      display: grid;
+      place-items: center;
+      width: 200px;
+      height: 200px;
+      padding: 16px;
+      background-color: #dbe4c6;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .image-circle img {
+      display: block;
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Hello World</h1>
+    <div class="center">
+      <div class="image-circle">
+        <img src="/wanko.jpg" />
+      </div>
+    </div>
+  </section>
+</body>

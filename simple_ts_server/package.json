@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "format:fix": "prettier --write 'src/**/*.ts'"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.19",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "5.0.2"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
